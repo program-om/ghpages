@@ -1,0 +1,13 @@
+html,
+body {
+  height: 100%;
+}
+
+footer {
+    position:fixed;bottom:0;left:0;right:0;
+  }
+
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
