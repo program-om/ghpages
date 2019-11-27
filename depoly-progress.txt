@@ -1,0 +1,21 @@
+This doc is reporting the progress of publishing my website on github pages. I run into an error which did not fix yet.
+
+the app should run on this url:
+https://program-om.github.io/ghpages
+
+I am following the instructions on this youtube vid
+https://www.youtube.com/watch?v=oa9cnWTpqP8
+
+The main error:
+angular-cli-ghpages index.html could not be copied to 404.html. Continuing without an error.
+
+https://github.com/angular-schule/angular-cli-ghpages/issues/37
+https://stackoverflow.com/questions/44385605/error-deploying-angular4-to-ghpages-using-angular-cli-ghpages
+
+
+Commands i used:
+$ ng build --prod --base-href="https://program-om.github.io/ghpages/"
+$ ngh
+
+and tried
+$ ngh --dir=dist/githubpage
